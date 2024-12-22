@@ -1,0 +1,110 @@
+
+a{color: white;}
+
+#logo_section{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width:auto;
+    justify-content: center;
+}
+
+#option_bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5AADF9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tab{
+    text-wrap: wrap;
+    text-align: center;
+}
+
+
+#car_section{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: #5AADF9
+}
+
+.car_services_img{
+    display: flex;
+}
+    
+#car_services{
+    display: flex;
+    flex-direction: column;
+}
+
+#home_section{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    height: 250px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #5AADF9
+
+}
+
+#home_services_img{
+    display: flex;
+    width:50%;
+    order: 1;
+}
+
+#home_services{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /*background-color: #5AADF9*/
+}
+
+#slogan{
+    font-weight: bold;
+}
+
+p{
+    font-style: serif;
+}
+
+li{
+    font-style: serif;
+}
+
+ul{
+    margin-top: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+#wash_options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.cartoon_image{
+    display: flex;
+    height : 150px;
+}
+
+#home_services_list{
+    padding-left: 30%;
+}
